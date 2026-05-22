@@ -1,0 +1,22 @@
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+env/
+venv/
+ENV/
+
+# Data & Uploads (contain invoices, booking docs, sensitive logs)
+data/latest_otp.txt
+data/*.log
+data/mock_*.txt
+server.log
+uploads/
+
+# IDEs
+.vscode/
+.idea/

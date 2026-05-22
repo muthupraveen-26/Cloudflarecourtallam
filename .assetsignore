@@ -1,0 +1,37 @@
+# Node.js
+node_modules/
+package-lock.json
+package.json
+
+# Python server (not used on Cloudflare)
+server.py
+requirements.txt
+*.pyc
+__pycache__/
+.venv/
+venv/
+
+# Wrangler config
+wrangler.toml
+.dev.vars
+.dev.vars.template
+
+# Environment files
+.env
+.env.template
+
+# Data & logs (sensitive)
+data/
+uploads/
+
+# Git
+.gitignore
+.git/
+
+# Editor
+.vscode/
+.idea/
+
+# Misc
+logo_base64.txt
+fix_xss.js
